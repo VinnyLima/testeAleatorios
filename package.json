@@ -1,0 +1,25 @@
+{
+  "name": "testeAleatorios",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "PV",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.4",
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.5.1"
+  }
+}
